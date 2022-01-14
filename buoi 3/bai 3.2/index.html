@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 style="color: green; margin-left: 150px">Đăng kí du lịch</h2>
+    <form action="" id="form">
+        <table border="1" style="border-collapse: collapse"> 
+            <tr>
+                <td>Họ và tên</td>
+                <td><input type="text" id="name" name="name" size="50"></td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td><input type="text" id="Address" name="Address" size="50"></td>
+            </tr>
+            <tr>
+                <td>Phone number</td>
+                <td><input type="number" id="phone" name="phone" ></td>
+            </tr>
+            <tr>
+                <td>Khách Việt Nam</td>
+                <td><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+                <td>Chọn tour</td>
+                <td>
+                    <select name="tour" id="tour">
+                        <optgroup label="Miền Bắc">
+                            <option value="Nha Trang-Đà lạt">Nha Trang-Đà lạt</option>
+                            <option value="Buôn Mê Thuột-Gia Lai-Kon Tum">Buôn Mê Thuột-Gia Lai-Kon Tum</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Phương tiện</td>
+                <td>
+                    <input type="radio" id="vehicle1" name="vehicle" value="Máy Bay">Máy bay
+                    <input type="radio" id="vehicle2" name="vehicle" value="Oto">Oto
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <fieldset style="width:350px; height:55px; margin:0 auto; border: 1px solid purple">
+                        <legend>Chọn sản phẩm tham gia</legend>
+                        <label for="AdultNo">Người lớn</label>
+                        <input type="text" id="AdultNo" name="AdultNo" maxlength="4" size="4">
+                        <label for="ChildNo">trẻ em</label>
+                        <input type="text" id="ChildNo" name="ChildNo" maxlength="4" size="4">
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>Ghi chú thêm</td>
+                <td>
+                    <textarea name="note" id="note" style="width: 300px"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div class="" id="" style="text-align:center">
+                        <button onclick="myfunc()" id="btn">Đăng nhập</button>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center; color: red">
+                    <p id="success">Bạn đã đăng kí thành công!!!</p>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
