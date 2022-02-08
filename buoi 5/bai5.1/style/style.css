@@ -13,16 +13,12 @@
   top: 0;
 }
 
-.background-header img {
-  position: absolute;
-  max-width: 100%;
-  vertical-align: middle;
-}
-
 .header-img {
+  position: absolute;
   object-fit: cover;
   width: 100%;
   height: auto;
+  vertical-align: middle;
 }
 
 .container-navbar {
