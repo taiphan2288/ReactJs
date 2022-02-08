@@ -15,7 +15,7 @@
 
 .header-img {
   position: absolute;
-  object-fit: cover;
+  object-fit: contain;
   width: 100%;
   height: auto;
   margin: 0 auto;
