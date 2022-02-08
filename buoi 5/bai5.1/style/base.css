@@ -1,0 +1,41 @@
+:root {
+  --primary-color: #2091f9;
+  --text-color: #374754;
+  --heading-color: #252b42;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  font-family: "Arimo", sans-serif;
+  line-height: 1;
+}
+
+.wrapper {
+  max-width: 1777px;
+  margin: 0 auto;
+}
+
+.btn {
+  border-radius: 35px;
+  color: #fff;
+  background-color: var(--primary-color);
+  outline: none;
+  padding: 16px 62px;
+  border: none;
+}
+
+.btn:hover {
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
+
+.position-relative {
+  position: relative !important;
+}
