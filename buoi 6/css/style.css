@@ -1,0 +1,175 @@
+.pricing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0px;
+  background-color: #252b42;
+}
+
+.pricing-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing-title {
+  font-size: 48px;
+  line-height: 55px;
+  /* identical to box height, or 115% */
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #fff;
+  padding: 10px;
+}
+
+.pricing-des {
+  font-size: 28px;
+  line-height: 40px;
+  /* or 143% */
+  font-weight: 200;
+  text-align: center;
+  letter-spacing: 0.2px;
+  /* Light text */
+  color: #ffffff;
+  width: 532px;
+  padding: 10px;
+  margin: 7px 0px;
+}
+
+.pricing-plan {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0 50px;
+  margin: 80px 0px;
+}
+
+.pricing-plan__items {
+  background-color: #fff;
+  padding: 40px;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  border: 1px solid #dedede;
+}
+
+.pricing-plan__items-heading {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0px;
+}
+
+.pricing-plan__items-title {
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+  font-weight: 700;
+  color: var(--heading-color);
+  letter-spacing: 0.1px;
+  padding: 3px 0px;
+}
+
+.pricing-plan__items-des {
+  font-size: 16px;
+  line-height: 23px;
+  /* or 144% */
+  letter-spacing: 0.1px;
+  color: var(--text-color);
+  width: 148px;
+}
+
+.pricing-plan__items-cost {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.pricing-plan__items-price {
+  font-weight: 800;
+  font-size: 74px;
+  line-height: 84px;
+  /* identical to box height, or 114% */
+  letter-spacing: 0.2px;
+  /* text */
+  color: var(--heading-color);
+  padding: 10px 0px;
+  margin: 0px 10px;
+}
+
+.pricing-plan__items-monthly-cost {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pricing-plan__items-dollar {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+  letter-spacing: 0.1px;
+  /* text */
+  color: #252b42;
+}
+
+.pricing-plan__items-month {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  /* identical to box height, or 144% */
+  letter-spacing: 0.1px;
+  /* second text */
+  color: #374754;
+}
+
+.pricing-plan__items-feature {
+  list-style: none;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.pricing-plan__item-feature-item {
+  font-size: 15px;
+  line-height: 28px;
+  /* identical to box height, or 187% */
+  letter-spacing: 0.2px;
+  /* text */
+  color: #252b42;
+  margin: 0px 10px;
+  padding: 10px;
+}
+
+.btn-order {
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height, or 100% */
+  letter-spacing: 0.2px;
+  /* Light text */
+  color: #ffffff;
+  padding: 18px 76px;
+  margin: 10px 0px;
+}
+
+.pricing-plan__items.pricing-plan__items-taken {
+  background: #2091f9;
+  transform: scale(1.1);
+}
+
+.pricing-plan__items.pricing-plan__items-taken .pricing-plan__items-title,
+.pricing-plan__items.pricing-plan__items-taken .pricing-plan__items-des,
+.pricing-plan__items.pricing-plan__items-taken .pricing-plan__items-price,
+.pricing-plan__items.pricing-plan__items-taken .pricing-plan__items-dollar,
+.pricing-plan__items.pricing-plan__items-taken .pricing-plan__items-month,
+.pricing-plan__items.pricing-plan__items-taken
+  .pricing-plan__item-feature-item {
+  color: #fff !important;
+}
+
+.pricing-plan__items.pricing-plan__items-taken .btn-order.btn {
+  background-color: #fff;
+  color: #2091f9;
+}
