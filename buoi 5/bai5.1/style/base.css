@@ -15,11 +15,21 @@ body {
   scroll-behavior: smooth;
   font-family: "Arimo", sans-serif;
   line-height: 1;
+  font-size: 1rem;
 }
 
 .wrapper {
   max-width: 1777px;
   margin: 0 auto;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .btn {
