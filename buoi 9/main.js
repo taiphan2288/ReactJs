@@ -82,6 +82,6 @@ function minMax(...numbers) {
   }
   var min = arr[0],
     max = arr[arr.length - 1];
-  return [min, max];
+  return { min, max };
 }
 console.log(minMax(1, 2, 4, 0, 12, 19));
